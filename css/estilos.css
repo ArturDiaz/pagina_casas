@@ -195,8 +195,23 @@ p{
 	width: 101%;
 }
 .cua_cont{
-	background: rgba(199,0,3,1);
+	background: rgba(199,0,3,0.7);
 	height: 350px;
+	position: relative;
+	overflow: hidden;
+}
+.cua_cont img{
+	width: 600px;
+	height: 500px;
+	transform: translateX(-10%) translateY(-10%);
+}
+.cua_cont .cuad{
+	background: rgba(199,0,3,0.7);
+	height: 350px;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
 }
 .cont_text h1{
 	font-size: 50px;
@@ -232,5 +247,4 @@ p{
 	width: 400px;
 	height: 350px;
 	transform: translateX(-20%);
-	
 }
