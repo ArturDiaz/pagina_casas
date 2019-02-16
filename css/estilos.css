@@ -122,9 +122,9 @@ body{
 	color: #eee;
 	padding: 0 50px;
 }
-.linea{
+.linea, .linea2{
 	width: 50px;
-	height: 3px;
+	height: 1px;
 	background: rgba(225,225,225,.7);
 	position: absolute;
 	top: 53%;
@@ -176,7 +176,10 @@ body{
 	
 	width: 76%;
 	height: 500px;
-	
+	position: relative;
+}
+p{
+	font-size: 18px;
 }
 /*-------- Quienes Somos ----------*/
 .blanc_cont1{
@@ -193,18 +196,41 @@ body{
 }
 .cua_cont{
 	background: rgba(199,0,3,1);
-	height: 400px;
+	height: 350px;
 }
 .cont_text h1{
 	font-size: 50px;
 	padding-top: 10px;
 }
-
+.linea2{
+	top: 120px;
+	left: -7%;
+	background: rgba(199,0,3,1);
+}
 #btn_comp{
-	padding: 10px 15px;
+	padding: 15px 20px;
+	margin-top: 50px;
 	background: rgba(199,0,3,1);
 	color: #fff;
 	border: none;
 	float: left;
 	cursor: pointer;
+}
+#btn_comp:hover{
+	background: rgba(199,0,3,0.8);
+}
+.img_somos{
+	height: 350px;
+	width: 250px;
+	overflow: hidden;
+	position: absolute;
+	top: 30%;
+	left: 50%;
+	box-shadow: 2px 2px 5px 0px rgba(23,3,5,.6);
+}
+.img_somos img{
+	width: 400px;
+	height: 350px;
+	transform: translateX(-20%);
+	
 }
