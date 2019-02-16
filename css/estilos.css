@@ -33,7 +33,7 @@ body{
 	right: auto;
 	margin: auto;
 	transform:translateX(-50%)
-		      translateY(-5px)rotate(46deg);
+		      translateY(-8px)rotate(46deg);
 	justify-content: center;
 }
 .botons:after{
@@ -173,9 +173,38 @@ body{
 }
 /*------ General Contenedor ------*/
 .contenido_gen{
-	background: red;
-	width: 80%;
+	
+	width: 76%;
 	height: 500px;
-	margin-top: 50px;
+	
 }
 /*-------- Quienes Somos ----------*/
+.blanc_cont1{
+	height: 110px;
+	margin-top: -11px;
+	z-index: 400;
+	background: #fff;
+}
+.blanc_cont{
+	height: 100px;
+}
+.cont{
+	width: 101%;
+}
+.cua_cont{
+	background: rgba(199,0,3,1);
+	height: 400px;
+}
+.cont_text h1{
+	font-size: 50px;
+	padding-top: 10px;
+}
+
+#btn_comp{
+	padding: 10px 15px;
+	background: rgba(199,0,3,1);
+	color: #fff;
+	border: none;
+	float: left;
+	cursor: pointer;
+}
