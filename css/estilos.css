@@ -184,7 +184,7 @@ p{
 /*-------- Quienes Somos ----------*/
 .blanc_cont1{
 	height: 110px;
-	margin-top: -11px;
+	margin-top: -4px;
 	z-index: 400;
 	background: #fff;
 }
@@ -206,7 +206,7 @@ p{
 	transform: translateX(-10%) translateY(-10%);
 }
 .cua_cont .cuad{
-	background: rgba(199,0,3,0.7);
+	background: rgba(199,0,3,0.8);
 	height: 350px;
 	width: 100%;
 	position: absolute;
@@ -215,7 +215,7 @@ p{
 }
 .cont_text h1{
 	font-size: 50px;
-	padding-top: 10px;
+	padding-top: 12px;
 }
 .linea2{
 	top: 120px;
