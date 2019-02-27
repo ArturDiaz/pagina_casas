@@ -4,7 +4,7 @@
 	font-family: 'Dosis', sans-serif;
 }
 body{
-	background: rgb(243, 241, 241);
+	background: rgb(255, 253, 253);
 }
 .menu{
 	width: 100.6%;
@@ -21,12 +21,12 @@ body{
 	box-shadow: 0px 2px 5px 0px rgba(23,3,5,.30);
 	text-align: center;
 }
-.botons{
+.botons, .botonsf{
 	font-size: 12px;
 	width: 100%;
 	padding: 20px 0;
 	cursor: pointer;
-	border-right: 1px solid rgba(23,3,5,.05);
+	border-right: 0.2px solid rgba(23,3,5,.05);
 	position: relative;
 }
 .botons:hover:before{
@@ -40,10 +40,11 @@ body{
 	right: auto;
 	margin: auto;
 	transform:translateX(-50%)
-		      translateY(-8px)rotate(46deg);
+			  translateY(-8px)
+			  rotate(46deg);
 	justify-content: center;
 }
-.botons:after{
+.botons:after, .botonsf:after{
 	content: "";
 	width: 0px;
 	height: 3px;
@@ -54,12 +55,12 @@ body{
 	transform: translateX(-50%);
 	transition: width 0.2s;
 }
-.botons:hover:after{
+.botons:hover:after, .botonsf:hover:after{
 	content: "";
 	width: 30px;
 	transition: width 0.2s;
 }
-.botons a{
+.botons a, .botonsf a{
 	text-decoration: none;
 	color: #6E6E6E;
 }
@@ -69,6 +70,16 @@ body{
 	width: 100%;
 	height: 100%;
 	padding: 20px 0;
+	position: relative;
+}
+.redes:after{
+	width: 200px;
+	height: 250px;
+	background: blue;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 25555;
 }
 .botons:hover a{
 	color: rgba(199,0,3,1.00);
@@ -126,7 +137,7 @@ body{
 	position: absolute;
 	top: 70px;
 	left: 8%;
-	color: #eee;
+	color: #fff;
 	padding: 0 50px;
 }
 .linea, .linea2{
@@ -193,7 +204,7 @@ p{
 	height: 110px;
 	margin-top: -4px;
 	z-index: 400;
-	background: rgb(243, 241, 241);
+	background: rgb(255, 253, 253);
 }
 .blanc_cont{
 	height: 100px;
@@ -351,7 +362,7 @@ p{
 }
 .fond_serv_bln{
 	height: 300px;
-	background: rgb(243, 241, 241);
+	background: rgb(255, 253, 253);
 }
 .linea_ps{
 	height: 20px;
@@ -383,7 +394,7 @@ p{
 	width: 220px;
 	height: 80px;
 	padding-top: 35px;
-	border: 4px solid rgba(110, 110, 110, 0.2);
+	border: 4px solid rgba(151, 151, 151, 0.2);
 	border-top: #fff;
 	margin: 0 auto;
 	transition: all 0.2s;
@@ -445,14 +456,52 @@ p{
 .footer_cont{
 	width: 100%;
 	margin: 0;
-	background: rgb(199, 199, 199);
+	background: rgb(223, 223, 223);
 }
 .logo_footer{
-	background: rgb(243, 241, 241);
+	background: rgb(255, 253, 253);
 	height: 70px;
 	text-align: center;
 	padding-top: 15px;
 }
 .conten_foo{
-	height: 400px;
+	text-decoration: none;
+	color: #fff;
+	padding: 20px;
+}
+hr{
+	color: rgba(110, 110, 110, 0.1);
+	width: 70%;
+	margin: 0 auto;
+}
+.redes2{
+	color: rgba(199,0,3,1.00);
+	width: 100%;
+	height: 100%;
+	padding: 20px 0;
+	position: relative;
+}
+.derec_foo{
+	height: 90px;
+	color: rgba(110, 110, 110, 0.6);
+	text-align: center;
+	padding-top: 25px;
+	font-size: 15px;
+}
+.derec_foo span{
+	color: rgba(110, 110, 110, 0.9);
+}
+.cel{
+	width: 20px;
+	height: 25px;
+	position: absolute;
+	top: 17px;
+	left: 15px;
+	opacity: 0.5;
+	border-radius: 2px;
+}
+
+.flex_wrap_a{
+	display: flex;
+	flex-wrap: wrap;
 }
